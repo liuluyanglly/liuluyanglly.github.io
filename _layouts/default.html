@@ -1,39 +1,45 @@
-{% include header.html %}
-<div class="container">
-	<div class="profile">
-		<a href="{{ site.url }}"><img src="{{site.author.picture}}" class="profile-image"></a>
-		<div class="profile-about">
-			<h2 style="margin-bottom: 0; font-weight: 700;">{{site.author.name}}</h2>
-			{% if site.author.facebook %}
-				<a href="https://facebook.com/{{site.author.facebook}}" target="_blank"><img src="assets/images/icon/facebook.svg" class="social-icon"></a>
-			{% endif %}
-			{% if site.author.twitter %}
-				<a href="https://twitter.com/{{site.author.twitter}}" target="_blank"><img src="assets/images/icon/twitter.svg" class="social-icon"></a>
-			{% endif %}
-			{% if site.author.instagram %}
-				<a href="https://instagram.com/{{site.author.instagram}}" target="_blank"><img src="assets/images/icon/instagram.svg" class="social-icon"></a>
-			{% endif %}
-			{% if site.author.youtube %}
-				<a href="{{site.author.youtube}}" target="_blank"><img src="assets/images/icon/youtube.svg" class="social-icon"></a>
-			{% endif %}
-			{% if site.author.github %}
-				<a href="https://github.com/{{site.author.github}}" target="_blank"><img src="assets/images/icon/github.svg" class="social-icon"></a>
-			{% endif %}
-			{% if site.author.linkedin %}
-				<a href="https://linkedin.com/in/{{site.author.linkedin}}" target="_blank"><img src="assets/images/icon/linkedin.svg" class="social-icon"></a>
-			{% endif %}
-			<a href="about"><img src="assets/images/icon/me.svg" class="social-icon"></a>
-			<br>
-			{{ site.author.bio }}
-			<br>
-			<div class="mode" id="mode-switcher" onclick="toggleNightMode();">
-				<span></span>
-			</div>
-		</div>
-	</div>
-	{{ content }}
-	<div class="footer">
-		<span>Made with <font color="red">♥</font> on Earth, a minimalist Jekyll Theme by <a href="https://hakan.io"><b>Hakan</b></a></span>
-	</div>
-</div>
-{% include footer.html %}
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container pure-g">
+      {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
+      {%- assign cover_color    = site.cover_color    | default: "rgb(255, 255, 255)" -%}
+      {%- assign cover_image    = site.cover_image -%}
+      {%- if page.cover_bg_color -%}
+        {%- assign cover_bg_color  = page.cover_bg_color -%}
+      {%- endif -%}
+      {%- if page.cover_color -%}
+        {%- assign cover_color     = page.cover_color -%}
+      {%- endif -%}
+      {%- if page.cover_image -%}
+        {%- assign cover_image     = page.cover_image -%}
+      {%- endif -%}
+      <div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if cover_image %}background-image: url({{ cover_image | relative_url }});{% endif %}">
+        {%- include sidebar-left.html -%}
+      </div>
+
+      <div class="content pure-u-1 pure-u-md-1-2">
+        {%- include content.html -%}
+      </div>
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4">
+        {%- include sidebar-right.html -%}
+      </div>
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+    {%- include scroll.html -%}
+
+    {%- if page.math -%}
+      {% include mathjax.html %}
+    {%- endif -%}
+
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  </body>
+</html>
