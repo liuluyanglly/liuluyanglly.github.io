@@ -5,7 +5,6 @@
 <main>
   {% include header.html %} {% include bio.html %}
   <section class="articles">
-    {% for post in site.posts %}
     <article class="article">
       <h2 class="article-title">
         About Me
@@ -49,7 +48,6 @@
         B.E. in Software Engineering, Harbin Institute of Technology, Weihai, 2019.
       </h5>
     </article>
-    {%endfor%}
   </section>
   {% include footer.html %}
 </main>
