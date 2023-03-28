@@ -1,5 +1,0 @@
-环境安装步骤：https://www.jianshu.com/p/9f71e260925d
-
-
-初始化 ：bundle install
-启动： bundle exec jekyll serve
