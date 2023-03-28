@@ -1,226 +1,84 @@
-# panthera-jekyll
+LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。
 
-[![Gem Version](https://badge.fury.io/rb/panthera-jekyll.svg)](https://badge.fury.io/rb/panthera-jekyll)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
-<!-- [![Jekyll Themes Shield](https://img.shields.io/badge/featured%20on-JT-red.svg)](https://jekyll-themes.com) -->
+这是一个可以发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。
 
-*panthera-jekyll is a Jekyll theme for GitHub Pages and Jekyll sites. You can [preview the theme to see what it looks like](https://demothemes.github.io/panthera-jekyll), or even [use it today](#installation).*
+现在我将此文档和基础教程分开了，此文档用于说明LOFFER的现有功能和更新情况，**查看为无任何代码基础者写的教程[请点这里](https://fromendworld.github.io/LOFFER/document/)**
 
-<div style="text-align: center;">
-  <img src="/screenshot.png" alt="panthera-jekyll" style="width: 100%; max-width: 750px;" />
-</div>
+## 更新内容
 
-## Installation
+### 2019-07-25 V0.4.0
 
-### Building a Jekyll Site
+修订目录跳级会坏掉的问题，不算完美解决，但不会坏掉了。
 
-Add this line to your Jekyll site's `Gemfile`:
+增加对LaTeX渲染的支持，请见[这篇说明和示例](https://fromendworld.github.io/LOFFER/math-test/)。
 
-```ruby
-gem "panthera-jekyll"
-```
+增加置顶功能，只要在一个post的YAML Front Matter（就是文章头部的这段信息）中加入` pinned: true `，这篇文章就可以置顶了。
 
-And add this line to your Jekyll site's `_config.yml`:
+另外介绍一个给LOFFER更换主题颜色的手法。LOFFER用了一个开源的颜色表[Open Color](https://yeun.github.io/open-color/),该色表提供的可选颜色有：red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow。
 
-```yaml
-theme: panthera-jekyll
-```
+LOFFER的默认状态是teal，要更换主题颜色，只要打开文件` _sass/_variables.scss `，将文件中所有的teal全部替换成你想要的颜色。例如，查找teal，替换indigo，全部替换，commit，完成！
 
-And then execute:
 
-    $ bundle
+### 2019-07-20 V0.3.0
 
-Or install it yourself as:
+新版本增加目录功能，在post的信息中心加入` toc: true `，这篇博文就会显示目录了。
 
-    $ gem install panthera-jekyll
+这次没有对config的修改，因此应该可以通过[这个方法](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)，给自己提pull request来更新。
 
-### Building a Github Page
+目录基于[jekyll-toc by allejo](https://github.com/allejo/jekyll-toc)制作。
 
-Add this line to your Github Page's `_config.yml`:
+目前我试用发现了一点小问题：如果你的标题级数不按套路变化，它就会搞不懂…… 
 
-```yaml
-remote_theme: christianezeani/panthera-jekyll
-```
+` # 一级标题 `下面必须是` ## 二级标题 `，如果是` ### 三级标题 `它就人工智障了【手动扶额】
 
-## Customizing
+注意：目前目录仅在桌面版显示。
 
-### Configuration variables
 
-panthera-jekyll will respect the following variables, if set in your site's `_config.yml`:
+### 2019-06-30 V0.2.0
 
-```yml
-title: [The title of your site or Profile Name]
-subtitle: [A brief subtitle or job title]
-description: [A short description of your site's purpose]
-```
+新版本进一步优化了一下样式，并且支持了基于GitHub Issues的评论Gitalk（请看下文的配置说明）。
 
-To configure the left side set the following variables as shown below:
+如果你已经fork了LOFFER，想要更新到新版本的话，可以试试[这个方法](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)，或者你也可以干脆删掉重来，只要保留自己的大部分config设定和所有的post就好。
 
-```yml
-left_side:
-  background_image: [Absolute or relative image url]
-  background_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value. Don't worry about the transparency of the background, we've taken care of that.]
-  close_button_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value.]
-  text_color: [CSS background color, e.g. "#F00". We strongly recommend quoting this value.]
-```
+LOFFER只是容器，你的posts才是博客的核心。
 
-#### Example
+## 支持的功能
 
-```yml
-left_side:
-  background_image: "./assets/images/left-background.jpg"
-  background_color: "#F00"
-  close_button_color: "#F00"
-  text_color: "#F00"
-```
+使用Markdown文档在_post文件夹中发布博文，现有功能包括显示作者、置顶博文、添加目录。
 
-To configure side menu, set the following variables:
+博文YAML举例：
 
-```yml
-menu:
-  - text: [Menu text]
-    link: [Relative page link with the '/' prefix]
-    icon: [Menu Icon]
-```
-
-#### Example
-
-```yml
-menu:
-  - text: Portfolio
-    link: /
-    icon: ""
-
-  - text: Skills & Offers
-    link: /skills-and-offers
-    icon: ""
-```
-
-To configure social links, set the following variables:
-
-```yml
-social_icons:
-  - name: [Socialmedia title]
-    link: [Social link]
-    icon: [Icon class]
-```
-
-#### Example
-
-```yml
-social_icons:
-  - name: linkedin
-    link: https://www.linkedin.com/christianezeani
-    icon: fab fa-linkedin
-
-  - name: github
-    link: https://github.com/christianezeani
-    icon: fab fa-github-square
-```
-
-To configure footer, set the following variables:
-
-```yml
-footer:
-  copyright_text: [The copyright text. Value should be quoted]
-```
-
-#### Example
-
-```yml
-footer:
-  copyright_text: "&copy; Christian Ezeani"
-```
-
-panthera-jekyll currently supports the following icons:
-
-* [FontAwesome](https://fontawesome.com) (version 5.9.0)
-
-### Stylesheet
-
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-
-2. Add the following content to the top of the file, exactly as shown:
-
-    ```scss
     ---
+    layout: post
+    title: Markdown语法简介
+    date: 2013-07-16
+    Author: Shengbin 
+    tags: [sample, markdown]
+    comments: true
+    toc: true
     ---
 
-    @import "panthera-jekyll";
-    ```
+按照标签和日期查看博文归档。请查看/tags 和/archive 页面。
 
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+链接博客主的社交媒体。请在_config.yml中填写。
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+支持Disqus和Gitalk两种评论区。请在_config.yml中设置。
 
-## Blog Posts
 
-### Creating Posts
+## 致谢
 
-To create a post, add a file to your `_posts` directory with the following format:
+* [Jekyll](https://github.com/jekyll/jekyll) - 这是本站存在的根基
+* [Kiko-now](<https://github.com/aweekj/kiko-now>) - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER
+* [Font Awesome](<https://fontawesome.com/>) - 社交网络图标来自FontAwesome的免费开源内容
 
-```
-YEAR-MONTH-DAY-title.MARKUP
-```
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. For example, the following are examples of valid post filenames:
 
-```
-2020-07-10-new-years-eve-is-awesome.md
-```
+## 帮助这个项目
 
-```md
----
-layout: post
-title: First Demo Post
-date: 2020-07-10 13:32:20 +0300
-description: Post description (optional)
-image: /image.jpg (optional)
-tags: [Holidays, Hawaii]
----
+介绍更多人来使用它，摆脱lofter自由飞翔！
 
-Post content here
-```
+欢迎Issues和Pull Requests。
 
-### Displaying an index of posts
+给我点一个☆吧！
 
-1. Create a page, e.g. `posts.md`, with the following content:
-
-```md
----
-layout: post
----
-
-# PAGE TITLE HERE
-
-{% include posts/index.html %}
-```
-
-2. Add a link to the left pane in your `_config.yml`
-
-```yml
-menu:
-  ...
-  - text: Blog Posts
-    link: /posts
-    icon: ""
-```
-
-...and you're good
-
-More post features are coming soon. To get updates on new features, hit the `Watch` button at the top of this page to get notifications.
-
-If you love this project, kindly hit the `Star` button at the top of this page.
-
-Follow me on [Github](//github.com/christianezeani) to see more of my projects.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/chrisitanezeani/panthera-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://contributor-covenant.org) code of conduct.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/givemefive.png)

@@ -2,29 +2,51 @@
 layout: default
 ---
 
-<section class="post-view">
-  {% if page.image %}
-  <div class="post-view__image">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
-  </div>
-  {% endif %}
+<article class="posts">
+  <h1>{{ page.title }}</h1>
 
-  <div class="post-view__header">
-    <h1>{{ page.title }}</h1>
-    <div class="post-view__info">
-      <span><strong>Date:</strong> {{ page.date | date: '%Y, %b %d' }}</span>
-    </div>
+  <div clsss="meta">
+    <span class="author">
+      {{ page.author }}
+    </span>
+
+    <span class="date">
+      {{ page.date | date: "%Y-%m-%d" }}
+    </span>
+
+    <ul class="tag">
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          {{ tag }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
-  {% include addons/share.html %}
-  
-  <div class="post-view__body">
+  <div class="entry">
     {{ content }}
   </div>
 
-  {% include addons/share.html %}
+  {% include disqus.html %}
+  {% include utteranc.html %}
+  {% include gitalk.html %}
+</article>
 
-  {% include posts/related.html %}
-
-  {% include addons/comments.html %}
-</section>
+<div class="pagination">
+  {% if page.previous.url %}
+    <span class="prev" >
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+        ← 上一篇
+      </a>
+    </span>
+  {% endif %}
+  {% if page.next.url %}
+    <span class="next" >
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+        下一篇 →
+      </a>
+    </span>
+  {% endif %}
+</div>
