@@ -8,18 +8,8 @@
         {% for post in site.posts %}
         <article class="article">
           <h2 class="article-title">
-            About Me
+            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
           </h2>
-          <h5 class="article-title">
-            Hi 👋, I am a 3rd-year PhD student at Monash University, supervised by Asst. Prof. Bohan Zhuang and Prof. Jianfei Cai. I am a member of ZIP Lab. My research focuses on network compression and model efficiency. Here is my CV.
-            I am actively looking for internships in 2023 (3-6 months). Please feel free to contact me via email.
-          </h5>
-<!--          <h2 class="article-title">-->
-<!--            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>-->
-<!--          </h2>-->
-<!--          <h5 class="article-title">-->
-<!--            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>-->
-<!--          </h5>-->
           <small class="date">{{post.date | date_to_string}}</small>
           <div class="categories">
             {% for c in post.categories %}
