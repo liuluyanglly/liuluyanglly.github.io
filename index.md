@@ -1,1 +1,4 @@
-这是一个个人博客
+---
+title: Blog
+layout: blog
+---
