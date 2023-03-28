@@ -1,10 +1,10 @@
-title: Jekyll Serial Programmer
+title: 刘禄洋个人主页
 markdown: kramdown
 
 # for atom feed
 author:
   name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  email: https://github.com/liuluyanglly
 
 plugins:
   - jemoji
