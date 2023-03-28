@@ -1,54 +1,62 @@
-# Jekyll Theme Serial Programmer
+# Ephesus
 
-> A Jekyll theme for serial programmers (-.-)
+Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
 
-[Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
+Author [Hakan Torun](https://hakan.io).
 
-## How to install
+- **Demo:** https://pardin.us/ephesus/
 
-1. Download or clone the repo
-   `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
-2. Enter the folder
-   `cd jekyll-theme-serial-programmer`
-3. Run
-   `bundle install`
-4. Start Jekyll server
-   `bundle exec jekyll serve`
-5. Access via
-   - localhost or according to your pc configurations.
-6. Change the `_config.yml` & `_data/author.yml` files as you like.
-7. Upload the files on your repository and :sunglasses: enjoy.
+### Features
 
-> NOTE: You have to remove `url` and `baseurl` from `_config.yml` to use this theme for `<your-username>.github.io`
+- [x] Tiny CSS & No Dependency
+- [x] Responsive Design
+- [x] Dark/Light Theme
+- [x] Custom 404 Page
+- [x] About Page
+- [x] Tags Page
+- [x] Code Highlighter
+- [x] Social Share
+- [x] Atom & Json feeds
+- [x] Robots.txt
+- [x] Sitemap
+- [x] Next & Previous Post
+- [x] Pagination
+- [x] Disqus
+- [x] Mathjax Support
+- [x] Google Analytics
 
-## Alert!
+## Screenshots
 
-* Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
-* You should use github [discussions](https://github.com/sharadcodes/jekyll-theme-serial-programmer/discussions) to ask any question.
-* Don't use issues to ask any question unless you are facing issue related to the theme, jekyll or any file.
+#### Light
+![light-theme](https://github.com/onepase/Ephesus/blob/master/light.png)
 
-## Asking for support!
+#### Dark
+![dark-theme](https://github.com/onepase/Ephesus/blob/master/dark.png)
 
-Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
+## Installation
 
-You can use the sponsor button at the top or on the right. 
+Run local server:
 
-[Github Sponsor Page](https://github.com/sponsors/sharadcodes)
+```bash
+$ git clone https://github.com/onepase/Ephesus.git
+$ cd Ephesus
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
+```
 
-# Screenshots
+Navigate to `127.0.0.1:4000`.
 
-## PC BLOG PAGE
+Tags are created automatically under the /tags page.
 
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog.png)
+To use a math formula in a post, use the mathjax:true tag in the post.
 
-## PC POST EXAMPLE
+## Contributing
 
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_post.png)
+Feel free to open a pull request for contributing.
 
-## PHONE BLOG PAGE
+Please feel free to contribute. Do not hesitate to open a pull request and fix it, please read [contributing](./CONTRIBUTING.md) before PR.
 
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_blog.png)
+## License
 
-## PHONE POST EXAMPLE
-
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_post.png)
+This project is open source and available under the [MIT License](LICENSE.md).
