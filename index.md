@@ -36,7 +36,7 @@ Medical Imaging and Graphics, Computer Methods and Programs in Biomedicine, Jour
 Representation, Signal Processing, Journal of Computer-Aided Design and Computer Graphics, Journal of Electronics and
 Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 
-*********
+***** ***
 
 ## Publications
 
