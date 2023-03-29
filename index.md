@@ -32,12 +32,11 @@ detection.***
 
 ## Appointment
 
-***Reviewer for several domestic and foreign academic journals and conferences, such as IEEE Transactions on Image
-Processing,
-Pattern Recognition, IEEE Transactions on Signal Processing, International Journal of Image and Graphics, Computerized
-Medical Imaging and Graphics, Computer Methods and Programs in Biomedicine, Journal of Visual Communication and Image
-Representation, Signal Processing, Journal of Computer-Aided Design and Computer Graphics, Journal of Electronics and
-Information Technology, Journal of Chinese Journal of Image and Graphics, etc.***
+***Reviewer for several domestic and foreign academic journals and conferences, such as <font color=Red>IEEE Transactions
+on Image Processing, Pattern Recognition, IEEE Transactions on Signal Processing,</font> International Journal of Image
+and Graphics, Computerized Medical Imaging and Graphics, Computer Methods and Programs in Biomedicine, Journal of Visual
+Communication and Image Representation, Signal Processing, Journal of Computer-Aided Design and Computer Graphics,
+Journal of Electronics and Information Technology, Journal of Chinese Journal of Image and Graphics, etc.***
 
 ## Publications
 
