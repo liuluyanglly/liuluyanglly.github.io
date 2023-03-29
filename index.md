@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# About me
+# About Me
 
 Ph.D from Shanghai Jiao Tong University, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a senior expert.
 IEEE Senior Member, Stanford Visiting Scholar, Shanghai Artificial Intelligence Association Talent Expert, Jiangsu Artificial Intelligence Association Talent Expert, China Unicom Science and Technology Committee Expert;
@@ -11,7 +11,7 @@ layout: default
 Participated in the research on visual display of three-dimensional SD-OCT retinal image lesions (high-level talent project of "Six Talent Peaks" in Jiangsu Province);
 * Rich research experience in the field of artificial intelligence machine vision and pattern recognition;
 
-## Research directions
+## Research Directions
 
 Deep vision, image processing, analysis and recognition, mainly include the following aspects:image segmentation,
 object tracking, image generation, image recovery(denoising, enhancement, deblurring), unsupervised anomaly detection.
@@ -22,7 +22,7 @@ object tracking, image generation, image recovery(denoising, enhancement, deblur
 M.S. in Computer Science, Nanjing University of Science and Technology, 2010.
 B.E. in Computer Science, Nanjing University of Technology, 2006.
 
-### Academic experience
+### Academic Experience
 
 Stanford University academic exchange for 3 months, 2018.
 Hong Kong Polytechnic University academic exchange for 1 month, 2019.
