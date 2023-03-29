@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-#
 # About Me
 
 * ***<font color=Red>Ph.D from Shanghai Jiao Tong University,</font> currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a
