@@ -33,7 +33,7 @@
           {% if site.blank_title %}
             <h2>{{ site.title | default: site.github.repository_name }}</h2>
           {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
           {% endif %}
 
           <p>{{ site.description | default: site.github.project_tagline }}</p>

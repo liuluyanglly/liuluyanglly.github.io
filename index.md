@@ -25,6 +25,7 @@ object tracking, image generation, image recovery(denoising, enhancement, deblur
 ## Academic Experience
 
 > Stanford University academic exchange for 3 months, 2018.
+>
 > Hong Kong Polytechnic University academic exchange for 1 month, 2019.
 
 ## Appointment
