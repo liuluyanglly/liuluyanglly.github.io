@@ -4,7 +4,7 @@ layout: default
 ##
 # About Me
 
-* ***Ph.D from Shanghai Jiao Tong University, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a
+* ***<font color=Red>Ph.D from Shanghai Jiao Tong University</font>, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a
   senior expert;***
 * ***IEEE Senior Member, Stanford Visiting Scholar, Shanghai Artificial Intelligence Association Talent Expert, Jiangsu
   Artificial Intelligence Association Talent Expert, China Unicom Science and Technology Committee Expert;***
