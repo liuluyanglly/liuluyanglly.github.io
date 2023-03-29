@@ -38,18 +38,18 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 
 ## Publications
 
-* ***[Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection](https://arxiv.org/abs/2211.10052)***
+* ***[Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection](https://arxiv.org/pdf/2211.10052.pdf)***
 ![img_4.png](img_4.png)
-* ***Normal Learning in Videos with Attention Prototype Network***
-![img_5.png](img_4.png#pic_left)
-* ***Multi-scale Feature Imitation for Unsupervised Anomaly Localization***
-* ***IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection***
-* ***Spatio-Temporal-based Context Fusion for Video Anomaly Detection***
-* ***Efficient Unsupervised Video Object Segmentation Network Based on Motion Guidance***
-* ***Data Augmentation Vision Transformer for Fine-grained Image Classification***
-* ***A Lightweight Reconstruction Network for Surface Defect Inspection***
-* ***Application Strategy of Security Detection Technology in the Background of Computer Vision***
-* ***A Fast Monocular 3D Object Detection Fusing Instance Depth***
+* ***[Normal Learning in Videos with Attention Prototype Network](https://arxiv.org/pdf/2108.11055.pdf)***
+![img_5.png](img_5.png#pic_left)
+* ***[Multi-scale Feature Imitation for Unsupervised Anomaly Localization](https://arxiv.org/pdf/2212.05786.pdf)***
+* ***[IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection](https://arxiv.org/pdf/2212.01528v1.pdf)***
+* ***[Spatio-Temporal-based Context Fusion for Video Anomaly Detection](https://arxiv.org/pdf/2210.09572.pdf)***
+* ***[Efficient Unsupervised Video Object Segmentation Network Based on Motion Guidance](https://arxiv.org/pdf/2211.05364.pdf)***
+* ***[Data Augmentation Vision Transformer for Fine-grained Image Classification](https://arxiv.org/pdf/2211.12879.pdf)***
+* ***[A Lightweight Reconstruction Network for Surface Defect Inspection](https://arxiv.org/pdf/2212.12878.pdf)***
+* ***[Application Strategy of Security Detection Technology in the Background of Computer Vision]()***
+* ***[A Fast Monocular 3D Object Detection Fusing Instance Depth]()***
 
 For other academic achievements, please refer to relevant journals.
 
