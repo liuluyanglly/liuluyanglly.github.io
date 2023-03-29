@@ -19,8 +19,8 @@ object tracking, image generation, image recovery(denoising, enhancement, deblur
 ## Education
 
 * **Ph.D in Computer Science, Shanghai Jiao Tong University, 2015.**
-* ##### M.S. in Computer Science, Nanjing University of Science and Technology, 2010.
-* ###### B.E. in Computer Science, Nanjing University of Technology, 2006.
+* **M.S. in Computer Science, Nanjing University of Science and Technology, 2010.**
+* **B.E. in Computer Science, Nanjing University of Technology, 2006.**
 
 ## Academic Experience
 
