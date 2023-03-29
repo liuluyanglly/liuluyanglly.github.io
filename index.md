@@ -43,30 +43,30 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 ## Publications
 
 * ***[Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection](https://arxiv.org/pdf/2211.10052.pdf)***
-  [![img_4.png](https://arxiv.org/pdf/2211.10052.pdf)](img_4.png)
+  [![img_4.png](img_4.png)](https://arxiv.org/pdf/2211.10052.pdf)
 * ***[Normal Learning in Videos with Attention Prototype Network](https://arxiv.org/pdf/2108.11055.pdf)***
-  [![img_5.png](https://arxiv.org/pdf/2108.11055.pdf)](img_5.png#pic_right)
+  [![img_5.png](img_5.png#pic_right)](https://arxiv.org/pdf/2108.11055.pdf)
 * ***[Multi-scale Feature Imitation for Unsupervised Anomaly Localization](https://arxiv.org/pdf/2212.05786.pdf)***
-  [![img_6.png](https://arxiv.org/pdf/2212.05786.pdf)](img_6.png)
+  [![img_6.png](img_6.png)](https://arxiv.org/pdf/2212.05786.pdf)
 * ***[IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection](https://arxiv.org/pdf/2212.01528v1.pdf)***
-  [![img_7.png](https://arxiv.org/pdf/2212.01528v1.pdf)](img_7.png)
+  [![img_7.png](img_7.png)](https://arxiv.org/pdf/2212.01528v1.pdf)
 * ***[Spatio-Temporal-based Context Fusion for Video Anomaly Detection](https://arxiv.org/pdf/2210.09572.pdf)***
-  [![img_8.png](https://arxiv.org/pdf/2210.09572.pdf)](img_8.png)
+  [![img_8.png](img_8.png)](https://arxiv.org/pdf/2210.09572.pdf)
 * ***[Efficient Unsupervised Video Object Segmentation Network Based on Motion Guidance](https://arxiv.org/pdf/2211.05364.pdf)***
-  [![img_9.png](https://arxiv.org/pdf/2211.05364.pdf)](img_9.png)
+  [![img_9.png](img_9.png)](https://arxiv.org/pdf/2211.05364.pdf)
 * ***[Data Augmentation Vision Transformer for Fine-grained Image Classification](https://arxiv.org/pdf/2211.12879.pdf)***
-  [![img_10.png](https://arxiv.org/pdf/2211.12879.pdf)](img_10.png)
+  [![img_10.png](img_10.png)](https://arxiv.org/pdf/2211.12879.pdf)
 * ***[A Lightweight Reconstruction Network for Surface Defect Inspection](https://arxiv.org/pdf/2212.12878.pdf)***
-  [![img_11.png](https://arxiv.org/pdf/2212.12878.pdf)](img_11.png)
+  [![img_11.png](img_11.png)](https://arxiv.org/pdf/2212.12878.pdf)
 * ***Application Strategy of Security Detection Technology in the Background of Computer Vision***
 * ***A Fast Monocular 3D Object Detection Fusing Instance Depth***
 
 | Publications                                                                                                                | pic                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------|
-| [Pedestrian Spatio-Temporal <br/>Information Fusion For <br/>Video Anomaly Detection](https://arxiv.org/pdf/2211.10052.pdf) | [![img_4.png](https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
-| [Normal Learning in Videos <br/>with Attention Prototype <br/>Network](https://arxiv.org/pdf/2108.11055.pdf)                | [![img_4.png](https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
-| [Multi-scale Feature Imitation<br/> for Unsupervised Anomaly<br/> Localization](https://arxiv.org/pdf/2212.05786.pdf)       | [![img_4.png](https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
-| [IDMS: Instance Depth for <br/>Multi-scale Monocular 3D <br/>Object Detection](https://arxiv.org/pdf/2212.01528v1.pdf)      | [![img_4.png](https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
+| [Pedestrian Spatio-Temporal <br/>Information Fusion For <br/>Video Anomaly Detection](https://arxiv.org/pdf/2211.10052.pdf) | [![img_4.png](img_4.png)](https://arxiv.org/pdf/2211.10052.pdf) |
+| [Normal Learning in Videos <br/>with Attention Prototype <br/>Network](https://arxiv.org/pdf/2108.11055.pdf)                | [![img_4.png](img_4.png)](https://arxiv.org/pdf/2211.10052.pdf) |
+| [Multi-scale Feature Imitation<br/> for Unsupervised Anomaly<br/> Localization](https://arxiv.org/pdf/2212.05786.pdf)       | [![img_4.png](img_4.png)](https://arxiv.org/pdf/2211.10052.pdf) |
+| [IDMS: Instance Depth for <br/>Multi-scale Monocular 3D <br/>Object Detection](https://arxiv.org/pdf/2212.01528v1.pdf)      | [![img_4.png](img_4.png)](https://arxiv.org/pdf/2211.10052.pdf) |
 
 **For other academic achievements, please refer to relevant journals.**
 
