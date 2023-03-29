@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20780568-4e24-47a7-b681-f0d075047775" name="Changes" comment="xxx" />
+    <list default="true" id="20780568-4e24-47a7-b681-f0d075047775" name="Changes" comment="xxx">
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/tools/gitspace/liuluyang.github.io",
+    "last_opened_file_path": "D:/tools/gitspace/liuluyang.github.io/assets/img",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.alibabacloud.intellij.config.AccountConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -43,8 +45,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\tools\gitspace\liuluyang.github.io" />
       <recent name="D:\tools\gitspace\liuluyang.github.io\assets\img" />
+      <recent name="D:\tools\gitspace\liuluyang.github.io" />
       <recent name="D:\tools\gitspace\liuluyang.github.io\_layouts" />
       <recent name="D:\tools\gitspace\liuluyang.github.io\all_collections\_posts" />
       <recent name="D:\tools\gitspace\liuluyang.github.io\assets\img\projects" />
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679966467745</updated>
       <workItem from="1679966469213" duration="18272000" />
-      <workItem from="1680052226202" duration="2337000" />
+      <workItem from="1680052226202" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1679967881707</created>

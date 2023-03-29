@@ -4,6 +4,8 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+极简主义主题：https://github.com/BDHU/minimalist
+
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
