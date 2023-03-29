@@ -57,6 +57,13 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 * ***Application Strategy of Security Detection Technology in the Background of Computer Vision***
 * ***A Fast Monocular 3D Object Detection Fusing Instance Depth***
 
+
+| Publications                                                                                                      | pic                                                           |
+|:------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| [Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection](https://arxiv.org/pdf/2211.10052.pdf) | ![img_4.png(https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
+| [Normal Learning in Videos with Attention Prototype Network](https://arxiv.org/pdf/2108.11055.pdf)                | ![img_4.png(https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
+| [Multi-scale Feature Imitation for Unsupervised Anomaly Localization](https://arxiv.org/pdf/2212.05786.pdf)       | ![img_4.png(https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
+| [IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection](https://arxiv.org/pdf/2212.01528v1.pdf)      | ![img_4.png(https://arxiv.org/pdf/2211.10052.pdf)](img_4.png) |
 **For other academic achievements, please refer to relevant journals.**
 
 
