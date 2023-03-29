@@ -41,9 +41,9 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 * ***[Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection](https://arxiv.org/pdf/2211.10052.pdf)***
 ![img_4.png](img_4.png)
 * ***[Normal Learning in Videos with Attention Prototype Network](https://arxiv.org/pdf/2108.11055.pdf)***
-![img_5.png](img_5.png#pic_left)
+![img_5.png](img_5.png#pic_right)
 * ***[Multi-scale Feature Imitation for Unsupervised Anomaly Localization](https://arxiv.org/pdf/2212.05786.pdf)***
-![img_6.png](img_6.png=300*300)
+![img_6.png](img_6.png)
 * ***[IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection](https://arxiv.org/pdf/2212.01528v1.pdf)***
 ![img_7.png](img_7.png)
 * ***[Spatio-Temporal-based Context Fusion for Video Anomaly Detection](https://arxiv.org/pdf/2210.09572.pdf)***
@@ -57,6 +57,6 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 * ***[Application Strategy of Security Detection Technology in the Background of Computer Vision]()***
 * ***[A Fast Monocular 3D Object Detection Fusing Instance Depth]()***
 
-For other academic achievements, please refer to relevant journals.
+**For other academic achievements, please refer to relevant journals.**
 
 
