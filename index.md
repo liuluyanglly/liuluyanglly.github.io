@@ -7,7 +7,7 @@ layout: default
 
 * ***Ph.D from Shanghai Jiao Tong University, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a senior expert.***
 * ***IEEE Senior Member, Stanford Visiting Scholar, Shanghai Artificial Intelligence Association Talent Expert, Jiangsu Artificial Intelligence Association Talent Expert, China Unicom Science and Technology Committee Expert;***
-* ***Published more than 30 academic papers in important journals at home and abroad, such as CVPR, ECCV, ICCV, IEEE TIP;***
+* ***Published more than 30 academic papers in important journals, such as CVPR, ECCV, ICCV, IEEE TIP;***
 * ***Participated in the research on visual display of three-dimensional SD-OCT retinal image lesions (high-level talent project of "Six Talent Peaks" in Jiangsu Province);***
 * ***Rich research experience in the field of artificial intelligence machine vision and pattern recognition;***
 
@@ -38,7 +38,7 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 
 ## Publications
 
-* ***Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection***
+* ***[Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection](https://arxiv.org/abs/2211.10052)***
 * ***Normal Learning in Videos with Attention Prototype Network***
 * ***Multi-scale Feature Imitation for Unsupervised Anomaly Localization***
 * ***IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection***
