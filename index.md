@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-##
+
 # About Me
 
-* ***<font color=Red>Ph.D from Shanghai Jiao Tong University</font>, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a
+* ***<font color=Red>Ph.D from Shanghai Jiao Tong University,</font> currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a
   senior expert;***
-* ***IEEE Senior Member, Stanford Visiting Scholar, Shanghai Artificial Intelligence Association Talent Expert, Jiangsu
+* ***<font color=Red>IEEE Senior Member, Stanford Visiting Scholar,</font> Shanghai Artificial Intelligence Association Talent Expert, Jiangsu
   Artificial Intelligence Association Talent Expert, China Unicom Science and Technology Committee Expert;***
-* ***Published more than 30 academic papers in important journals, such as CVPR, ECCV, ICCV, IEEE TIP;***
+* ***Published more than 30 academic papers in important journals, such as <font color=Red>CVPR, ECCV, ICCV, IEEE TIP;</font>***
 * ***Participated in the research on visual display of three-dimensional SD-OCT retinal image lesions (high-level talent
   project of "Six Talent Peaks" in Jiangsu Province);***
 * ***Rich research experience in the field of artificial intelligence machine vision and pattern recognition;***
@@ -27,9 +27,9 @@ detection.***
 
 ## Academic Experience
 
-> ***Stanford University academic exchange for 3 months, 2018.***
+> ***<font color=Red>Stanford University</font> academic exchange for 3 months, 2018.***
 >
-> ***Hong Kong Polytechnic University academic exchange for 1 month, 2019.***
+> ***<font color=Red>Hong Kong Polytechnic University</font> academic exchange for 1 month, 2019.***
 
 ## Appointment
 
