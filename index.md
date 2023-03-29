@@ -37,7 +37,7 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.
 
 ## Publications
 
-* The main achievements are as follows：
+The main achievements are as follows：
 * Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection
 * Normal Learning in Videos with Attention Prototype Network
 * Multi-scale Feature Imitation for Unsupervised Anomaly Localization
