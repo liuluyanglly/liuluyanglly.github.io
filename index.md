@@ -5,7 +5,7 @@ layout: default
 # About Me
 
 * ***Ph.D from Shanghai Jiao Tong University, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a
-  senior expert.***
+  senior expert;***
 * ***IEEE Senior Member, Stanford Visiting Scholar, Shanghai Artificial Intelligence Association Talent Expert, Jiangsu
   Artificial Intelligence Association Talent Expert, China Unicom Science and Technology Committee Expert;***
 * ***Published more than 30 academic papers in important journals, such as CVPR, ECCV, ICCV, IEEE TIP;***
@@ -53,8 +53,8 @@ Information Technology, Journal of Chinese Journal of Image and Graphics, etc.**
 | [![img_10.png](img_10.png)](https://arxiv.org/pdf/2211.12879.pdf)  | [Data Augmentation Vision Transformer for Fine-grained Image Classification](https://arxiv.org/pdf/2211.12879.pdf)        |
 | [![img_11.png](img_11.png)](https://arxiv.org/pdf/2212.12878.pdf)  | [A Lightweight Reconstruction Network for Surface Defect Inspection](https://arxiv.org/pdf/2212.12878.pdf)                |
 
-* ***Application Strategy of Security Detection Technology in the Background of Computer Vision***
-* ***A Fast Monocular 3D Object Detection Fusing Instance Depth***
+* ***[Application Strategy of Security Detection Technology in the Background of Computer Vision](https://liuluyanglly.github.io/)***
+* ***[A Fast Monocular 3D Object Detection Fusing Instance Depth](https://liuluyanglly.github.io/)***
 
 **For other academic achievements, please refer to relevant journals.**
 
