@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20780568-4e24-47a7-b681-f0d075047775" name="Changes" comment="xxx" />
+    <list default="true" id="20780568-4e24-47a7-b681-f0d075047775" name="Changes" comment="xxx">
+      <change afterPath="$PROJECT_DIR$/assets/img/pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2NcblRbNIaGSmr0LlP4HT9gNxYC" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -80,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679966467745</updated>
       <workItem from="1679966469213" duration="18272000" />
-      <workItem from="1680052226202" duration="3645000" />
+      <workItem from="1680052226202" duration="5573000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1679967881707</created>

@@ -5,16 +5,49 @@ layout: default
 
 # About me
 
-人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。
-简单来说，AI就是让机器具备类人的智能行为，让计算机能够像人一样思考、判断、学习和自我调整，进行各种复杂的计算和推理操作。
-AI可以模拟、延伸和扩展人类的各种智能表现形式，比如语音识别、图像识别、语言翻译、自然语言处理、机器人控制等等。同时，AI还能够从大量的数据中发现规律、挖掘信息，帮助人类做出更准确、更有针对性的决策。
-目前，AI已经广泛应用于很多领域，例如医疗、金融、交通、教育、物流等等。随着技术的不断发展和突破，相信AI将会在未来发挥越来越重要的作用，为人类创造更多的便利和价值。
-## Header 2
+Ph.D from Shanghai Jiao Tong University, currently working at Unicom (Shanghai) Industry Internet Co., Ltd. as a senior expert.
+IEEE Senior Member, Stanford Visiting Scholar, Shanghai Artificial Intelligence Association Talent Expert, Jiangsu Artificial Intelligence Association Talent Expert, China Unicom Science and Technology Committee Expert;
+Published more than 30 academic papers in important journals at home and abroad, such as CVPR, ECCV, ICCV, IEEE TIP;
+Participated in the research on visual display of three-dimensional SD-OCT retinal image lesions (high-level talent project of "Six Talent Peaks" in Jiangsu Province);
+* Rich research experience in the field of artificial intelligence machine vision and pattern recognition;
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Research directions
 
-### Header 3
+Deep vision, image processing, analysis and recognition, mainly include the following aspects:image segmentation,
+object tracking, image generation, image recovery(denoising, enhancement, deblurring), unsupervised anomaly detection.
+
+### Education
+
+Ph.D in Computer Science, Shanghai Jiao Tong University, 2015.
+M.S. in Computer Science, Nanjing University of Science and Technology, 2010.
+B.E. in Computer Science, Nanjing University of Technology, 2006.
+
+### Academic experience
+
+Stanford University academic exchange for 3 months, 2018.
+Hong Kong Polytechnic University academic exchange for 1 month, 2019.
+
+### Appointment
+
+Reviewer for several domestic and foreign academic journals and conferences, such as IEEE Transactions on Image Processing,
+Pattern Recognition, IEEE Transactions on Signal Processing, International Journal of Image and Graphics, Computerized
+Medical Imaging and Graphics, Computer Methods and Programs in Biomedicine, Journal of Visual Communication and Image
+Representation, Signal Processing, Journal of Computer-Aided Design and Computer Graphics, Journal of Electronics and
+Information Technology, Journal of Chinese Journal of Image and Graphics, etc.
+
+### Publications
+
+The main achievements are as follows：
+Pedestrian Spatio-Temporal Information Fusion For Video Anomaly Detection
+Normal Learning in Videos with Attention Prototype Network
+Multi-scale Feature Imitation for Unsupervised Anomaly Localization
+IDMS: Instance Depth for Multi-scale Monocular 3D Object Detection
+Spatio-Temporal-based Context Fusion for Video Anomaly Detection
+Efficient Unsupervised Video Object Segmentation Network Based on Motion Guidance
+Data Augmentation Vision Transformer for Fine-grained Image Classification
+A Lightweight Reconstruction Network for Surface Defect Inspection
+Application Strategy of Security Detection Technology in the Background of Computer Vision
+A Fast Monocular 3D Object Detection Fusing Instance Depth
+
 
 
