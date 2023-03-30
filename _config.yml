@@ -5,13 +5,15 @@ description: A blog about lorem ipsum dolor sit amet
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+username: LuYang Liu(刘禄洋)
+user_description: 作为一名拥有7年开发经验和计算机相关专业的Java开发工程师，我热爱编程并深入研究掌握了Java技术，精通Java基础知识，
+  尤其擅长Java多线程并发机制、容器原理及垃圾回收等方面。同时，我熟练掌握Spring、Mybatis等主流框架，注重代码规范，追求清晰易读，
+  形成了良好的编程习惯。此外，我非常注重团队合作，善于沟通分享自己的经验和知识，并且擅长解决问题。我期待有机会加入贵公司，为公司的发展努力贡献自己的能力和才华！
 user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+email: blingblinglly@163.com
+twitter_username: https://github.com/liuluyanglly
+github_username:  https://github.com/liuluyanglly
+gplus_username:  https://github.com/liuluyanglly
 
 # Google-analytics
 google-analytics:
