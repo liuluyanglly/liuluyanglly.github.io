@@ -6,10 +6,8 @@ description: A blog about lorem ipsum dolor sit amet
 
 # User settings
 username: LuYang Liu(刘禄洋)
-user_description: 作为一名拥有7年开发经验和计算机相关专业的Java开发工程师，我热爱编程并深入研究掌握了Java技术，精通Java基础知识，
-  尤其擅长Java多线程并发机制、容器原理及垃圾回收等方面。同时，我熟练掌握Spring、Mybatis等主流框架，注重代码规范，追求清晰易读，
-  形成了良好的编程习惯。此外，我非常注重团队合作，善于沟通分享自己的经验和知识，并且擅长解决问题。我期待有机会加入贵公司，为公司的发展努力贡献自己的能力和才华！
-user_title: Software Developer
+user_description: 作为一名Java开发工程师，我有着多年的开发经验和扎实的计算机专业知识。除了精通Java编程语言之外，我还熟练掌握了Mybatis、MybatisPlus、Springboot、Springclould等主流框架的使用，并在实践中遵守阿里代码规范，确保代码质量。我参与并领导完成了多个项目，这些项目涵盖了主页博客、网站、管理系统等多个领域，我深刻理解了不同项目所面临的挑战和解决方法。在团队合作中，我一直以互帮互助的理念为准则，并且善于解决各种技术难题和问题。我对技术研究非常感兴趣，因此我会利用闲暇时间在自己的技术博客上分享所学所思，并提供各种技术分享和解决方案，积极地为社区做出贡献。我期待加入贵公司，与优秀的团队成员合作，推动产品和服务的发展，创造更大的成功！
+user_title: Java开发工程师
 email: blingblinglly@163.com
 twitter_username: https://github.com/liuluyanglly
 github_username:  https://github.com/liuluyanglly
