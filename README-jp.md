@@ -125,7 +125,7 @@ YouTubeの[Mr. Green テーマチュートリアルのプレイリスト](https:
 
 [MIT license](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt)でも示されている通り、ライセンス及び著作権表示をした上で、このテーマをどこでも使用することができます。
 
-`Copyright (c) 2023 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
+`Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
 
 ご利用の際に私のページへのリンクを貼ったり、フッターの "Pwrd by Mr. Green "のリンクを残したりして頂くと、私の作品に対してクレジットが得られます。
 
