@@ -1,21 +1,32 @@
 {
-  "name": "particle",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "notion-blog",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "gulp"
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build && node .next/server/build-rss.js",
+    "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}\" --ignore-path .gitignore",
+    "lint-staged": "lint-staged"
   },
-  "author": "Nathan Randecker",
-  "license": "ISC",
+  "pre-commit": "lint-staged",
   "dependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1"
+    "@zeit/react-jsx-parser": "2.0.0",
+    "async-sema": "3.1.0",
+    "github-slugger": "1.2.1",
+    "katex": "0.12.0",
+    "next": "^11.1.2",
+    "prismjs": "1.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "8.1.0"
+  },
+  "devDependencies": {
+    "@types/katex": "0.11.0",
+    "@types/node": "14.14.31",
+    "@types/react": "17.0.2",
+    "lint-staged": "10.5.4",
+    "pre-commit": "1.2.2",
+    "prettier": "2.2.1",
+    "typescript": "^4.4.4"
   }
 }
