@@ -7,7 +7,7 @@ lng_pair: id_privacy_policy
 #img: ":image.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
-#date: 2022-03-03 12:32:00 +0000
+#date: 2023-03-03 12:32:00 +0000
 
 # for override items in _data/lang/[language].yml
 #title: My title
@@ -17,7 +17,7 @@ lng_pair: id_privacy_policy
 
 # seo
 # if not specified, date will be used.
-#meta_modify_date: 2022-03-03 12:32:00 +0000
+#meta_modify_date: 2023-03-03 12:32:00 +0000
 # check the meta_common_description in _data/owner/[language].yml
 #meta_description: ""
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
-# Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+# Copyright (c) 2023 Mr. Green's Workshop https://www.MrGreensWorkshop.com
 # Licensed under MIT
 
 # check the token
@@ -25,7 +25,7 @@ githubApiRequest () {
     ${PostStr} \
     -H "Accept: application/vnd.github+json" \
     -H "Authorization: Bearer ${GITHUB_TOKEN}" \
-    -H "X-GitHub-Api-Version: 2022-11-28" \
+    -H "X-GitHub-Api-Version: 2023-11-28" \
     https://api.github.com/repos/${GITHUB_REPOSITORY}/${1} \
     "${2}"
   ` || exit 1
@@ -39,7 +39,7 @@ githubApiRequest () {
 }
 
 githubApiRequestCreateRelease () {
-  # https://docs.github.com/en/rest/releases/releases?apiVersion=2022-11-28#create-a-release
+  # https://docs.github.com/en/rest/releases/releases?apiVersion=2023-11-28#create-a-release
   # ex payload: {"tag_name":"v1.0.0","target_commitish":"master","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
 
   local dataPayload=$(
@@ -73,7 +73,7 @@ githubApiRequestCreateRelease () {
 }
 
 githubApiRequestCreatePR () {
-  # https://docs.github.com/en/rest/pulls/pulls?apiVersion=2022-11-28#create-a-pull-request
+  # https://docs.github.com/en/rest/pulls/pulls?apiVersion=2023-11-28#create-a-pull-request
   # ex payload: '{"title":"Amazing new feature","body":"Please pull these awesome changes in!","head":"octocat:new-feature","base":"master"}'
 
   local dataPayload=$(
@@ -101,7 +101,7 @@ githubApiRequestCreatePR () {
 }
 
 githubApiRequestCreateIssue () {
-  # https://docs.github.com/en/rest/issues/issues?apiVersion=2022-11-28#create-an-issue
+  # https://docs.github.com/en/rest/issues/issues?apiVersion=2023-11-28#create-an-issue
   # ex payload: '{"title":"Found a bug","body":"I'\''m having a problem with this.","assignees":["octocat"],"milestone":1,"labels":["bug"]}'
 
   local dataPayload=$(

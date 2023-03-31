@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
-# Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+# Copyright (c) 2023 Mr. Green's Workshop https://www.MrGreensWorkshop.com
 # Licensed under MIT
 
 source .github/actions/common/githubApiCalls.sh

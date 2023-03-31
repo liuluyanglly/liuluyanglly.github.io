@@ -125,7 +125,7 @@ Merci pour vos contributions!
 
 Comme il est indiqué dans la [licence MIT](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt), vous pouvez utiliser ce thème n'importe où tant que vous incluez la licence et l'avis de droit d'auteur.
 
-`Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
+`Copyright (c) 2023 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
 
 Veuillez ajouter un lien vers ma page ou laisser le lien "Pwrd by Mr. Green" dans le pied de page afin que je puisse obtenir du crédit pour mon travail.
 

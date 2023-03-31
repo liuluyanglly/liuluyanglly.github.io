@@ -16,11 +16,11 @@ img: ":post_pic1.jpg"
 #comments_disable: true
 
 # publish date
-date: 2022-02-10 08:11:06 +0900
+date: 2023-02-10 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
-#meta_modify_date: 2022-02-10 08:11:06 +0900
+#meta_modify_date: 2023-02-10 08:11:06 +0900
 # check the meta_common_description in _data/owner/[language].yml
 #meta_description: ""
 
@@ -155,12 +155,12 @@ This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-Jek
 
 scroll enabled when page is narrow
 
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
+| Fruits | num (left align)  | num (right align) | num  | num  | num  |
+| ------ |:------------------| ----------------: | ---- | ---- | ---- |
+| Apple  | 1111              |              1111 | 2222 | 3333 | 4444 |
+| Banana | 111               |               111 | 222  | 333  | 444  |
+| Orange | 11                |                11 | 22   | 33   | 44   |
+| Lemon  | 1                 |                 1 | 2    | 3    | 4    |
 {:data-align="center"}
 
 #### Wider Table
